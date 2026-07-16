@@ -37,28 +37,4 @@ export function saveStudents(students) {
 }
 
 
-export function getDemoData() {
-  return [
-    {
-      id: generateId(),
-      name: "Zhraa Amayreh",
-      email: "zhraa@gmail.com",
-      major: "Computer Science",
-      gpa: 3.85,
-    },
-    {
-      id: generateId(),
-      name: "James Chen",
-      email: "james@gmail.com",
-      major: "Data Science",
-      gpa: 3.72,
-    },
-    {
-      id: generateId(),
-      name: "Sofia Martinez",
-      email: "sofia@gmail.com",
-      major: "Software Engineering",
-      gpa: 3.91,
-    },
-  ];
-}
+
