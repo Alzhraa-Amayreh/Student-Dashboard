@@ -260,3 +260,18 @@ td {
     width: 100%;
   }
 }
+
+.input-group input.error {
+    border-color: #d9534f !important;
+    background: #fdf2f2;
+}
+
+.error-message {
+    color: #d9534f;
+    font-size: 13px;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+}
